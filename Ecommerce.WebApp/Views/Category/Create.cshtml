@@ -1,0 +1,19 @@
+﻿@model CategoryCreate
+
+
+<h4>Category Create</h4>
+
+
+<form method="post">
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" asp-for="Name"  placeholder="Enter Name">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="CategoryCode">Category Code</label>
+        <input type="text" class="form-control" asp-for="CategoryCode" placeholder="Category Code">
+        <span asp-validation-for="CategoryCode"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
