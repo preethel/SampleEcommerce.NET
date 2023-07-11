@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oy8pQHiUNi4L0HN/F/qDkgOvWHHXsmdMoeuImI6bmjrBVVTRgoH0IIWkTyiB2EFhHyxNbcIvzZ96xPZZ7Klkwg==",
+  "dgSpecHash": "gixMhB1jpwIsuyFFL8NDLD34fPfi4Xn7FY/MNY80Qwifml2ur+vFoDTx5n0rT4PrW5DlMPY66vymhjOeFsLreA==",
   "success": true,
-  "projectFilePath": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj",
+  "projectFilePath": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Models\\Ecommerce.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

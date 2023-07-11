@@ -1,0 +1,24 @@
+﻿@model CategoryEditVM
+
+<h4>Category Edit</h4>
+
+
+<form method="post">
+    <input type="hidden" asp-for="Id"/>
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" asp-for="Name" placeholder="Enter Name">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="CategoryCode">Category Code</label>
+        <input type="text" class="form-control" asp-for="CategoryCode" placeholder="Enter Category Code">
+        <span asp-validation-for="CategoryCode" class="text-danger"></span>
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@if(ViewBag.Error!=null){
+    <h6>@ViewBag.Error</h6>
+}

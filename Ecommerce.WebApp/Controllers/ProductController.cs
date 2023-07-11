@@ -68,5 +68,83 @@ namespace Ecommerce.WebApp.Controllers
             return View();
 
         }
+        public IActionResult Edit(int? id)
+        {
+            if (id == null || id <= 0)
+            {
+                ViewBag.Error = "Please provide valid id.";
+                return View();
+            }
+
+            var product = _productRepository.GetById((int)id);
+
+            if (product == null)
+            {
+                ViewBag.Error = "Sorry, no product found for this id.";
+                return View();
+            }
+
+            var model = new ProductEditVM()
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description,
+                Price = product.Price,
+                CategoryId = product.CategoryId,
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(ProductEditVM model)
+        {
+            if (ModelState.IsValid)
+            {
+                var product = _productRepository.GetById(model.Id);
+
+                if (product == null)
+                {
+                    ViewBag.Error = "Customer not found to update!";
+                    return View(model);
+                }
+
+                product.Name = model.Name;
+                product.Description = model.Description;
+                product.Price = model.Price;
+                product.CategoryId = model.CategoryId;
+
+
+                bool isSuccess = _productRepository.Update(product);
+                if (isSuccess)
+                {
+                    return RedirectToAction("Index");
+                }
+            }
+
+            return View(model);
+        }
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id <= 0)
+            {
+                ViewBag.Error = "Please provide valid id.";
+                return View();
+            }
+
+            var product = _productRepository.GetById((int)id);
+            
+            if (product == null)
+            {
+                ViewBag.Error = "Sorry, no product found for this id.";
+                return View();
+            }
+            bool isSuccess = _productRepository.Delete(product);
+            if (isSuccess)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
     }
 }

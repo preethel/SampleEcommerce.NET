@@ -26,5 +26,22 @@ namespace Ecommerce.Repositories
         {
             return _db.Categories.ToList();
         }
+
+        public Category GetById(int id)
+        {
+            return _db.Categories.FirstOrDefault(c => c.Id == id);
+        }
+        public bool Update(Category Category)
+        {
+            _db.Categories.Update(Category);
+
+            return _db.SaveChanges() > 0;
+        }
+        public bool Delete(Category Category)
+        {
+            _db.Categories.Remove(Category);
+            return _db.SaveChanges() > 0;
+        }
+
     }
 }

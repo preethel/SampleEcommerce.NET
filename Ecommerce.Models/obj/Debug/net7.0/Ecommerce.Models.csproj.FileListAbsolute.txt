@@ -22,3 +22,15 @@ E:\C#\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.dll
 E:\C#\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\refint\Ecommerce.Models.dll
 E:\C#\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.pdb
 E:\C#\SampleEcommerceApp\Ecommerce.Models\obj\Debug\net7.0\ref\Ecommerce.Models.dll
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.deps.json
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.dll
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\bin\Debug\net7.0\Ecommerce.Models.pdb
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.csproj.AssemblyReference.cache
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.AssemblyInfoInputs.cache
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.AssemblyInfo.cs
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.csproj.CoreCompileInputs.cache
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.dll
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\obj\Debug\net7.0\refint\Ecommerce.Models.dll
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\obj\Debug\net7.0\Ecommerce.Models.pdb
+C:\Workspace\C#\SampleEcommerce.NET\Ecommerce.Models\obj\Debug\net7.0\ref\Ecommerce.Models.dll

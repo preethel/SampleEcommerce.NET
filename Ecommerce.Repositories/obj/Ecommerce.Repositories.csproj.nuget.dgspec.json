@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {}
+    "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {}
   },
   "projects": {
-    "E:\\C#\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj": {
+    "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Database\\Ecommerce.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj",
+        "projectUniqueName": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Database\\Ecommerce.Database.csproj",
         "projectName": "Ecommerce.Database",
-        "projectPath": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Database\\obj\\",
+        "projectPath": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Database\\Ecommerce.Database.csproj",
+        "packagesPath": "C:\\Users\\azam1\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\azam1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\C#\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-                "projectPath": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj"
+              "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+                "projectPath": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Models\\Ecommerce.Models.csproj"
               }
             }
           }
@@ -71,21 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\C#\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+    "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Models\\Ecommerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "projectUniqueName": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Models\\Ecommerce.Models.csproj",
         "projectName": "Ecommerce.Models",
-        "projectPath": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Models\\obj\\",
+        "projectPath": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "packagesPath": "C:\\Users\\azam1\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\azam1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -126,21 +126,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\C#\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {
+    "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
+        "projectUniqueName": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
         "projectName": "Ecommerce.Repositories",
-        "projectPath": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Repositories\\obj\\",
+        "projectPath": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
+        "packagesPath": "C:\\Users\\azam1\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\azam1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,11 +154,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\C#\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj": {
-                "projectPath": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Database\\Ecommerce.Database.csproj"
+              "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Database\\Ecommerce.Database.csproj": {
+                "projectPath": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Database\\Ecommerce.Database.csproj"
               },
-              "E:\\C#\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-                "projectPath": "E:\\C#\\SampleEcommerceApp\\Ecommerce.Models\\Ecommerce.Models.csproj"
+              "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+                "projectPath": "C:\\Workspace\\C#\\SampleEcommerce.NET\\Ecommerce.Models\\Ecommerce.Models.csproj"
               }
             }
           }
@@ -188,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

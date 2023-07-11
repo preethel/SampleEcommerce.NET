@@ -57,5 +57,80 @@ namespace Ecommerce.WebApp.Controllers
             return View();
 
         }
+        public IActionResult Edit(int? id)
+        {
+            if (id == null || id <= 0)
+            {
+                ViewBag.Error = "Please provide valid id.";
+                return View(); 
+            }
+
+            var category = _categoryRepository.GetById((int)id);
+
+            if(category == null)
+            {
+                ViewBag.Error = "Sorry, no category found for this id.";
+                return View();
+            }
+
+            var model = new CategoryEditVM()
+            {
+                Id = category.Id,
+                Name = category.Name,
+                CategoryCode = category.CategoryCode
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(CategoryEditVM model)
+        {
+            if(ModelState.IsValid)
+            {
+                var category = _categoryRepository.GetById(model.Id);
+
+                if(category == null)
+                {
+                    ViewBag.Error = "category not found to update!";
+                    return View(model);
+                }
+
+                category.Name = model.Name;
+                category.CategoryCode = model.CategoryCode;
+             
+
+                bool isSuccess = _categoryRepository.Update(category);
+                if (isSuccess)
+                {
+                    return RedirectToAction("Index");
+                }
+            }
+
+            return View(model);
+        }
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id <= 0)
+            {
+                ViewBag.Error = "Please provide valid id.";
+                return View();
+            }
+
+            var category = _categoryRepository.GetById((int)id);
+
+            if (category == null)
+            {
+                ViewBag.Error = "Sorry, no product found for this id.";
+                return View();
+            }
+            bool isSuccess = _categoryRepository.Delete(category);
+            if (isSuccess)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
     }
 }

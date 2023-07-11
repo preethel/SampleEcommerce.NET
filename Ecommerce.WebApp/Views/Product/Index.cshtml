@@ -41,7 +41,7 @@
                     <td>@product.Description</td>
                     <td>@product.Price</td>
                     <td>@category.Name</td>
-                    <td>View |<a asp-action="Edit" asp-route-id="@product.Id">Edit</a>  | Remove </td>
+                    <td>View |<a asp-action="Edit" asp-route-id="@product.Id">Edit</a>  |<a asp-action="Delete" asp-route-id="@product.Id"> Remove</a> </td>
                 </tr>
             }
         </tbody>
